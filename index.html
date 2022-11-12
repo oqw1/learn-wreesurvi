@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>Learn!Weesurvi-ald0.1.0</title>
+    <style>
+        body {;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>欢迎学习<b>Weesurvi</b>!</h1>
+    <h3>目录</h3>
+    <p>下载详情可见</p>
+    <a href="https://oqw1.github.io">oqw1.github.io</a>
+    <br />
+    <a href="#1st">基础处理</a>
+    <br />
+    <a href="#2nd">日志和储存对话</a>
+    <br />
+    <a href="#3rd">高级应用</a>
+    <br />
+	<a href="#4th">关于ald0.2</a>
+    <hr />
+    <h2 id="1st">基础处理</h2>
+    <p>下载好了Weesurvi-ald0.1.0并运行完weesurvi-create.py后，请运行weesurvi.py，开始交互式weesurvi。</p>
+    <h4>Create语句</h4>
+    <p>这个语句可以创建各种文件，这个语句使用方法如下:</p>
+    <p>Weesurvi>create C:/user/Desktop/n.txt</p>
+    <p>不加路径将直接建在Wseesurvi文件夹里<br />如果创建一个已创建的文件，将会清空文件</p>
+    <p>在ald0.2.0（下一版本）中，你无法创建、修改或读取dll或bat文件<br />但在ald0.1.0中，为了防止文件损坏，最好不要修改它们。</p>
+    <h4>Write语句</h4>
+    <p>这个语句可以清空并写入文件，这个语句使用方法如下:</p>
+    <p>Weesurvi>write C:/user/Desktop/n.txt hello</p>
+    <p>它是最有用的语句之一。但很危险，建议多使用Append语句。</p>
+    <h4>Append语句</h4>
+    <p>这个语句可以附加文字至文件，这个语句使用方法如下:</p>
+    <p>Weesurvi>append C:/user/Desktop/n.txt bye</p>
+    <p>它较为安全。建议多使用它用于文件修改</p>
+	<h4>Copy语句</h4>
+	<p>这个语句可以复制文件,使用方法如下：</p>
+	<p>Weesurvi>copy n.txt a.txt</p>
+	<p>a.txt是原来的文件，b.txt是复制的文件</p>
+	<p>它无法使文件变化，你可以放心使用</p>
+	<h4>Remove语句</h4>
+	<p>这个语句可以删除语句，使用方法如下:</p>
+	<p>Weesurvi>remove b.txt</p>
+	<p>极度危险！并不会转移至回收站</p>
+	<h4>Read语句</h4>
+	<p>这个语句可以查看语句，使用方法如下：</p>
+	<p>Weesurvi>read n.txt</p>
+	<p>你可以尽情使用！不会造成破坏！</p>
+	<hr />
+	<h2 id="2nd">日志和储存对话</h2>
+	<h6>日志和储存对话是ald0.1最新功能</p>
+	<h4>save语句<h4>
+	<p>save语句可以保存当前对话。</p>
+	<p>但save语句分两种：clean和save。</p>
+	<h5>save语句:clean</h5>
+	<p>它可以保存语句并清空，用法如下：</p>
+	<p>Weesurvi>save clean say.sws</p>
+	<p>我们推荐使用.sws作为文件名</p>
+	<h5>save语句：save</h5>
+	<p>他可以保存语句而且不清空,用法如下:</p>
+	<p>Weesurvi>save save second_say.sws</p>
+	<p>其他同上</p>
+	<h4>see log语句</h4>
+	<p>这个语句可以查看日志，用法如下：</p>
+	<p>Weesurvi>see log</p>
+	<p>影响与read语句相同</p>
+	<hr />
+	<h2 id="3rd">高级应用</h2>
+	<h4>PI语句</h4>
+	<p>这个语句可以调用pi(圆周率)，用法如下：</p>
+	<p>Weesurvi>pi</p>
+	<p>无害语句，随便用！</p>
+	<h4>Strlen语句</h4>
+	<p>这个语句可以统计文件字数,用法如下：</p>
+	<p>Weesurvi>strlen a.txt</p>
+	<p>有什么可说的吗？</p>
+	<h4>	Intercept_to语句</h4>
+	<p>这个语句可以截取文本,用法如下：</p>
+	<p>Weesurvi>intercept_to a.txt 1</p>
+	<p>有什么可说的吗？</p>
+	<h4>batch语句</h4>
+	<p>这只是总称，共有batch_create,batch_remove两种,用法如下：</p>
+	<p>Weesurvi>batch_create 2 d.txt v.txt</p>
+	<p>Weesurvi>batch_remove 2 d.txt v.txt</p>
+	<p>有什么可说的吗？</p>
+	<hr />
+	<h2 id="#4th">在预计12月31日出版的ald0.2</h2>
+	<p>我们将新增echo与alert</p>
+	<p>Weesurvi自己也可以成为文件运行了！但功能不多，详情见之后</p>
+</body>
+<html>
